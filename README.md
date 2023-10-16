@@ -1,10 +1,25 @@
-# Network Emulation Framework for Industrial Control Systems (NEFICS)
+# CPSandbox: A Virtual Testbed for CPS Security Research
 
-NEFICS aims to provide researchers with a flexible way to simulate high-fidelity devices for industrial control systems.
+CPSandbox is a virtual testbed that aims to provide security researchers with a feature-rich ICS testbed.
+
+## Research Paper
+
+**CPSandbox: A Virtual Testbed for CPS Security Research** 
+
+If you use our work in a scientific publication, please do cite us using this **BibTex** entry:
+
+``` tex
+@inproceedings{placeholder,
+ author    = {placeholder},
+ booktitle = {placeholder},
+ title     = {placeholder},
+ year      = {placeholder}
+}
+```
 
 ## Quickstart
 
-Based on Mininet, NEFICS instantiates whichever devices the user specifies within the configuration file used at runtime:
+Based on Mininet and NEFICS, CPSandbox instantiates whichever devices the user specifies within the configuration file used at runtime:
 
 > `python3 -m run_nefics conf/simple_powergrid_iec104.json`
 
@@ -101,5 +116,18 @@ The configuration file is in JSON format and specifies the network topology of t
     }
 ```
 
-## Acknowledgements
-This research was possible thanks to the federal grants NIST 70NANB17H282 and DHS/AFRL FA8750-19-2-0010.
+## Getting Started
+
+Coming soon!
+
+## Help
+
+Coming soon!
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE.md file for details
+
+## Acknowledgments
+
+Coming soon!
